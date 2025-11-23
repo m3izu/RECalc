@@ -1,0 +1,7 @@
+{
+	"InstallScripts" : 
+	[
+		"Z:/kod/automatafpit/build/cmake_install.cmake"
+	],
+	"Parallel" : false
+}

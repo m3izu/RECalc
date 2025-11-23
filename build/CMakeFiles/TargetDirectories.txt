@@ -1,0 +1,4 @@
+Z:/kod/automatafpit/build/CMakeFiles/recalc.dir
+Z:/kod/automatafpit/build/CMakeFiles/tests.dir
+Z:/kod/automatafpit/build/CMakeFiles/ALL_BUILD.dir
+Z:/kod/automatafpit/build/CMakeFiles/ZERO_CHECK.dir

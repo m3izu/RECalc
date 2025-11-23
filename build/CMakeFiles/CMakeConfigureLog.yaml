@@ -1,0 +1,443 @@
+
+---
+events:
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/mingw64/share/cmake-4.0/Modules/CMakeDetermineSystem.cmake:205 (message)"
+      - "CMakeLists.txt:5 (project)"
+    message: |
+      The system is: Windows - 6.2.9200 - AMD64
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/mingw64/share/cmake-4.0/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "C:/mingw64/share/cmake-4.0/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/mingw64/share/cmake-4.0/Modules/CMakeDetermineCXXCompiler.cmake:126 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:5 (project)"
+    message: |
+      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+      Compiler:  
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      0
+      MSBuild version 17.14.23+b0019275e for .NET Framework
+      Build started 23/11/2025 7:33:39 pm.
+      
+      Project "Z:\\kod\\automatafpit\\build\\CMakeFiles\\4.0.1\\CompilerIdCXX\\CompilerIdCXX.vcxproj" on node 1 (default targets).
+      PrepareForBuild:
+        Creating directory "Debug\\".
+        Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
+        Creating directory "Debug\\CompilerIdCXX.tlog\\".
+      InitializeBuildStatus:
+        Creating "Debug\\CompilerIdCXX.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+        Touching "Debug\\CompilerIdCXX.tlog\\unsuccessfulbuild".
+      ClCompile:
+        Z:\\Prog\\Visual Studio CE\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\CL.exe /c /nologo /W0 /WX- /diagnostics:column /Od /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\\\" /Fd"Debug\\vc143.pdb" /external:W0 /Gd /TP /FC /errorReport:queue CMakeCXXCompilerId.cpp
+        CMakeCXXCompilerId.cpp
+      Link:
+        Z:\\Prog\\Visual Studio CE\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:".\\CompilerIdCXX.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:".\\CompilerIdCXX.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\\CompilerIdCXX.lib" /MACHINE:X64 Debug\\CMakeCXXCompilerId.obj
+        CompilerIdCXX.vcxproj -> Z:\\kod\\automatafpit\\build\\CMakeFiles\\4.0.1\\CompilerIdCXX\\CompilerIdCXX.exe
+      PostBuildEvent:
+        for %%i in (cl.exe) do @echo CMAKE_CXX_COMPILER=%%~$PATH:i
+        :VCEnd
+        CMAKE_CXX_COMPILER=Z:\\Prog\\Visual Studio CE\\VC\\Tools\\MSVC\\14.44.35207\\bin\\Hostx64\\x64\\cl.exe
+      FinalizeBuildStatus:
+        Deleting file "Debug\\CompilerIdCXX.tlog\\unsuccessfulbuild".
+        Touching "Debug\\CompilerIdCXX.tlog\\CompilerIdCXX.lastbuildstate".
+      Done Building Project "Z:\\kod\\automatafpit\\build\\CMakeFiles\\4.0.1\\CompilerIdCXX\\CompilerIdCXX.vcxproj" (default targets).
+      
+      Build succeeded.
+          0 Warning(s)
+          0 Error(s)
+      
+      Time Elapsed 00:00:00.83
+      
+      
+      Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX.exe"
+      
+      Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX.vcxproj"
+      
+      The CXX compiler identification is MSVC, found in:
+        Z:/kod/automatafpit/build/CMakeFiles/4.0.1/CompilerIdCXX/CompilerIdCXX.exe
+      
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/mingw64/share/cmake-4.0/Modules/CMakeDetermineCompilerABI.cmake:83 (try_compile)"
+      - "C:/mingw64/share/cmake-4.0/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:5 (project)"
+    checks:
+      - "Detecting CXX compiler ABI info"
+    directories:
+      source: "Z:/kod/automatafpit/build/CMakeFiles/CMakeScratch/TryCompile-cej9ws"
+      binary: "Z:/kod/automatafpit/build/CMakeFiles/CMakeScratch/TryCompile-cej9ws"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "/DWIN32 /D_WINDOWS /GR /EHsc"
+      CMAKE_CXX_FLAGS_DEBUG: "/Zi /Ob0 /Od /RTC1"
+      CMAKE_CXX_SCAN_FOR_MODULES: "OFF"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      VCPKG_INSTALLED_DIR: "Z:/kod/automatafpit/vcpkg/installed"
+      VCPKG_PREFER_SYSTEM_LIBS: "OFF"
+      VCPKG_TARGET_TRIPLET: "x64-windows-static"
+      Z_VCPKG_ROOT_DIR: "Z:/kod/automatafpit/vcpkg"
+    buildResult:
+      variable: "CMAKE_CXX_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: 'Z:/kod/automatafpit/build/CMakeFiles/CMakeScratch/TryCompile-cej9ws'
+        
+        Run Build Command(s): "Z:/Prog/Visual Studio CE/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_a6f0e.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        MSBuild version 17.14.23+b0019275e for .NET Framework
+        Build started 23/11/2025 7:33:41 pm.
+        
+        Project "Z:\\kod\\automatafpit\\build\\CMakeFiles\\CMakeScratch\\TryCompile-cej9ws\\cmTC_a6f0e.vcxproj" on node 1 (default targets).
+        PrepareForBuild:
+          Creating directory "cmTC_a6f0e.dir\\Debug\\".
+          Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
+          Creating directory "Z:\\kod\\automatafpit\\build\\CMakeFiles\\CMakeScratch\\TryCompile-cej9ws\\Debug\\".
+          Creating directory "cmTC_a6f0e.dir\\Debug\\cmTC_a6f0e.tlog\\".
+        InitializeBuildStatus:
+          Creating "cmTC_a6f0e.dir\\Debug\\cmTC_a6f0e.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+          Touching "cmTC_a6f0e.dir\\Debug\\cmTC_a6f0e.tlog\\unsuccessfulbuild".
+        ClCompile:
+          Z:\\Prog\\Visual Studio CE\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_a6f0e.dir\\Debug\\\\" /Fd"cmTC_a6f0e.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TP /errorReport:queue "C:\\mingw64\\share\\cmake-4.0\\Modules\\CMakeCXXCompilerABI.cpp"
+          Microsoft (R) C/C++ Optimizing Compiler Version 19.44.35219 for x64
+          Copyright (C) Microsoft Corporation.  All rights reserved.
+          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_a6f0e.dir\\Debug\\\\" /Fd"cmTC_a6f0e.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TP /errorReport:queue "C:\\mingw64\\share\\cmake-4.0\\Modules\\CMakeCXXCompilerABI.cpp"
+          CMakeCXXCompilerABI.cpp
+        Link:
+          Z:\\Prog\\Visual Studio CE\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"Z:\\kod\\automatafpit\\build\\CMakeFiles\\CMakeScratch\\TryCompile-cej9ws\\Debug\\cmTC_a6f0e.exe" /INCREMENTAL /ILK:"cmTC_a6f0e.dir\\Debug\\cmTC_a6f0e.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"Z:/kod/automatafpit/build/CMakeFiles/CMakeScratch/TryCompile-cej9ws/Debug/cmTC_a6f0e.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"Z:/kod/automatafpit/build/CMakeFiles/CMakeScratch/TryCompile-cej9ws/Debug/cmTC_a6f0e.lib" /MACHINE:X64  /machine:x64 cmTC_a6f0e.dir\\Debug\\CMakeCXXCompilerABI.obj
+          cmTC_a6f0e.vcxproj -> Z:\\kod\\automatafpit\\build\\CMakeFiles\\CMakeScratch\\TryCompile-cej9ws\\Debug\\cmTC_a6f0e.exe
+        FinalizeBuildStatus:
+          Deleting file "cmTC_a6f0e.dir\\Debug\\cmTC_a6f0e.tlog\\unsuccessfulbuild".
+          Touching "cmTC_a6f0e.dir\\Debug\\cmTC_a6f0e.tlog\\cmTC_a6f0e.lastbuildstate".
+        Done Building Project "Z:\\kod\\automatafpit\\build\\CMakeFiles\\CMakeScratch\\TryCompile-cej9ws\\cmTC_a6f0e.vcxproj" (default targets).
+        
+        Build succeeded.
+            0 Warning(s)
+            0 Error(s)
+        
+        Time Elapsed 00:00:00.85
+        
+      exitCode: 0
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/mingw64/share/cmake-4.0/Modules/CMakeDetermineCompilerABI.cmake:227 (message)"
+      - "C:/mingw64/share/cmake-4.0/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:5 (project)"
+    message: |
+      Parsed CXX implicit link information:
+        link line regex: [^( *|.*[/\\])(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)|link\\.exe|lld-link(\\.exe)?|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
+        linker tool regex: [^[ 	]*(->|")?[ 	]*(([^"]*[/\\])?(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)|link\\.exe|lld-link(\\.exe)?))("|,| |$)]
+        linker tool for 'CXX': Z:/Prog/Visual Studio CE/VC/Tools/MSVC/14.44.35207/bin/HostX64/x64/link.exe
+        implicit libs: []
+        implicit objs: []
+        implicit dirs: []
+        implicit fwks: []
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/mingw64/share/cmake-4.0/Modules/Internal/CMakeDetermineLinkerId.cmake:36 (message)"
+      - "C:/mingw64/share/cmake-4.0/Modules/CMakeDetermineCompilerABI.cmake:264 (cmake_determine_linker_id)"
+      - "C:/mingw64/share/cmake-4.0/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:5 (project)"
+    message: |
+      Running the CXX compiler's linker: "Z:/Prog/Visual Studio CE/VC/Tools/MSVC/14.44.35207/bin/HostX64/x64/link.exe" "-v"
+      Microsoft (R) Incremental Linker Version 14.44.35219.0
+      Copyright (C) Microsoft Corporation.  All rights reserved.
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/mingw64/share/cmake-4.0/Modules/CheckSymbolExists.cmake:160 (try_compile)"
+      - "C:/mingw64/share/cmake-4.0/Modules/CheckSymbolExists.cmake:69 (__CHECK_SYMBOL_EXISTS_IMPL)"
+      - "C:/mingw64/share/cmake-4.0/Modules/FindBZip2.cmake:100 (check_symbol_exists)"
+      - "vcpkg/scripts/buildsystems/vcpkg.cmake:908 (_find_package)"
+      - "vcpkg/installed/x64-windows-static/share/freetype/vcpkg-cmake-wrapper.cmake:43 (find_package)"
+      - "vcpkg/scripts/buildsystems/vcpkg.cmake:862 (include)"
+      - "C:/mingw64/share/cmake-4.0/Modules/CMakeFindDependencyMacro.cmake:78 (find_package)"
+      - "vcpkg/installed/x64-windows-static/share/sfml/SFMLGraphicsDependencies.cmake:12 (find_dependency)"
+      - "vcpkg/installed/x64-windows-static/share/sfml/SFMLConfig.cmake:151 (include)"
+      - "vcpkg/scripts/buildsystems/vcpkg.cmake:908 (_find_package)"
+      - "C:/mingw64/share/cmake-4.0/Modules/CMakeFindDependencyMacro.cmake:78 (find_package)"
+      - "vcpkg/installed/x64-windows-static/share/imgui-sfml/ImGui-SFMLConfig.cmake:3 (find_dependency)"
+      - "vcpkg/scripts/buildsystems/vcpkg.cmake:908 (_find_package)"
+      - "CMakeLists.txt:13 (find_package)"
+    checks:
+      - "Looking for BZ2_bzCompressInit"
+    directories:
+      source: "Z:/kod/automatafpit/build/CMakeFiles/CMakeScratch/TryCompile-ap2jlw"
+      binary: "Z:/kod/automatafpit/build/CMakeFiles/CMakeScratch/TryCompile-ap2jlw"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "/DWIN32 /D_WINDOWS /GR /EHsc"
+      CMAKE_CXX_FLAGS_DEBUG: "/Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "Z:/kod/automatafpit/vcpkg/installed/x64-windows-static/share/sfml"
+      VCPKG_INSTALLED_DIR: "Z:/kod/automatafpit/vcpkg/installed"
+      VCPKG_PREFER_SYSTEM_LIBS: "OFF"
+      VCPKG_TARGET_TRIPLET: "x64-windows-static"
+      Z_VCPKG_ROOT_DIR: "Z:/kod/automatafpit/vcpkg"
+    buildResult:
+      variable: "BZIP2_NEED_PREFIX"
+      cached: true
+      stdout: |
+        Change Dir: 'Z:/kod/automatafpit/build/CMakeFiles/CMakeScratch/TryCompile-ap2jlw'
+        
+        Run Build Command(s): "Z:/Prog/Visual Studio CE/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_e2eaa.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        MSBuild version 17.14.23+b0019275e for .NET Framework
+        Build started 23/11/2025 7:33:42 pm.
+        
+        Project "Z:\\kod\\automatafpit\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ap2jlw\\cmTC_e2eaa.vcxproj" on node 1 (default targets).
+        PrepareForBuild:
+          Creating directory "cmTC_e2eaa.dir\\Debug\\".
+          Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
+          Creating directory "Z:\\kod\\automatafpit\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ap2jlw\\Debug\\".
+          Creating directory "cmTC_e2eaa.dir\\Debug\\cmTC_e2eaa.tlog\\".
+        InitializeBuildStatus:
+          Creating "cmTC_e2eaa.dir\\Debug\\cmTC_e2eaa.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+          Touching "cmTC_e2eaa.dir\\Debug\\cmTC_e2eaa.tlog\\unsuccessfulbuild".
+        ClCompile:
+          Z:\\Prog\\Visual Studio CE\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\CL.exe /c /I"Z:\\kod\\automatafpit\\vcpkg\\installed\\x64-windows-static\\include" /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /std:c++17 /Fo"cmTC_e2eaa.dir\\Debug\\\\" /Fd"cmTC_e2eaa.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TP /errorReport:queue "Z:\\kod\\automatafpit\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ap2jlw\\CheckSymbolExists.cxx"
+          Microsoft (R) C/C++ Optimizing Compiler Version 19.44.35219 for x64
+          Copyright (C) Microsoft Corporation.  All rights reserved.
+          cl /c /I"Z:\\kod\\automatafpit\\vcpkg\\installed\\x64-windows-static\\include" /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /std:c++17 /Fo"cmTC_e2eaa.dir\\Debug\\\\" /Fd"cmTC_e2eaa.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TP /errorReport:queue "Z:\\kod\\automatafpit\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ap2jlw\\CheckSymbolExists.cxx"
+          CheckSymbolExists.cxx
+        Link:
+          Z:\\Prog\\Visual Studio CE\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"Z:\\kod\\automatafpit\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ap2jlw\\Debug\\cmTC_e2eaa.exe" /INCREMENTAL /ILK:"cmTC_e2eaa.dir\\Debug\\cmTC_e2eaa.ilk" /NOLOGO "Z:\\kod\\automatafpit\\vcpkg\\installed\\x64-windows-static\\debug\\lib\\bz2d.lib" kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"Z:/kod/automatafpit/build/CMakeFiles/CMakeScratch/TryCompile-ap2jlw/Debug/cmTC_e2eaa.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"Z:/kod/automatafpit/build/CMakeFiles/CMakeScratch/TryCompile-ap2jlw/Debug/cmTC_e2eaa.lib" /MACHINE:X64  /machine:x64 cmTC_e2eaa.dir\\Debug\\CheckSymbolExists.obj
+        LINK : warning LNK4098: defaultlib 'LIBCMTD' conflicts with use of other libs; use /NODEFAULTLIB:library [Z:\\kod\\automatafpit\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ap2jlw\\cmTC_e2eaa.vcxproj]
+          cmTC_e2eaa.vcxproj -> Z:\\kod\\automatafpit\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ap2jlw\\Debug\\cmTC_e2eaa.exe
+        FinalizeBuildStatus:
+          Deleting file "cmTC_e2eaa.dir\\Debug\\cmTC_e2eaa.tlog\\unsuccessfulbuild".
+          Touching "cmTC_e2eaa.dir\\Debug\\cmTC_e2eaa.tlog\\cmTC_e2eaa.lastbuildstate".
+        Done Building Project "Z:\\kod\\automatafpit\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ap2jlw\\cmTC_e2eaa.vcxproj" (default targets).
+        
+        Build succeeded.
+        
+        "Z:\\kod\\automatafpit\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ap2jlw\\cmTC_e2eaa.vcxproj" (default target) (1) ->
+        (Link target) -> 
+          LINK : warning LNK4098: defaultlib 'LIBCMTD' conflicts with use of other libs; use /NODEFAULTLIB:library [Z:\\kod\\automatafpit\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ap2jlw\\cmTC_e2eaa.vcxproj]
+        
+            1 Warning(s)
+            0 Error(s)
+        
+        Time Elapsed 00:00:00.84
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/mingw64/share/cmake-4.0/Modules/Internal/CheckSourceCompiles.cmake:104 (try_compile)"
+      - "C:/mingw64/share/cmake-4.0/Modules/CheckCXXSourceCompiles.cmake:58 (cmake_check_source_compiles)"
+      - "C:/mingw64/share/cmake-4.0/Modules/FindThreads.cmake:99 (check_cxx_source_compiles)"
+      - "C:/mingw64/share/cmake-4.0/Modules/FindThreads.cmake:163 (_threads_check_libc)"
+      - "vcpkg/scripts/buildsystems/vcpkg.cmake:908 (_find_package)"
+      - "C:/mingw64/share/cmake-4.0/Modules/CMakeFindDependencyMacro.cmake:78 (find_package)"
+      - "vcpkg/installed/x64-windows-static/share/sfml/SFMLSystemDependencies.cmake:8 (find_dependency)"
+      - "vcpkg/installed/x64-windows-static/share/sfml/SFMLConfig.cmake:151 (include)"
+      - "vcpkg/scripts/buildsystems/vcpkg.cmake:908 (_find_package)"
+      - "C:/mingw64/share/cmake-4.0/Modules/CMakeFindDependencyMacro.cmake:78 (find_package)"
+      - "vcpkg/installed/x64-windows-static/share/imgui-sfml/ImGui-SFMLConfig.cmake:3 (find_dependency)"
+      - "vcpkg/scripts/buildsystems/vcpkg.cmake:908 (_find_package)"
+      - "CMakeLists.txt:13 (find_package)"
+    checks:
+      - "Performing Test CMAKE_HAVE_LIBC_PTHREAD"
+    directories:
+      source: "Z:/kod/automatafpit/build/CMakeFiles/CMakeScratch/TryCompile-1qfbs1"
+      binary: "Z:/kod/automatafpit/build/CMakeFiles/CMakeScratch/TryCompile-1qfbs1"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "/DWIN32 /D_WINDOWS /GR /EHsc"
+      CMAKE_CXX_FLAGS_DEBUG: "/Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "Z:/kod/automatafpit/vcpkg/installed/x64-windows-static/share/sfml;Z:/kod/automatafpit/vcpkg/installed/x64-windows-static/share/sfml;Z:/kod/automatafpit/vcpkg/installed/x64-windows-static/share/sfml"
+      VCPKG_INSTALLED_DIR: "Z:/kod/automatafpit/vcpkg/installed"
+      VCPKG_PREFER_SYSTEM_LIBS: "OFF"
+      VCPKG_TARGET_TRIPLET: "x64-windows-static"
+      Z_VCPKG_ROOT_DIR: "Z:/kod/automatafpit/vcpkg"
+    buildResult:
+      variable: "CMAKE_HAVE_LIBC_PTHREAD"
+      cached: true
+      stdout: |
+        Change Dir: 'Z:/kod/automatafpit/build/CMakeFiles/CMakeScratch/TryCompile-1qfbs1'
+        
+        Run Build Command(s): "Z:/Prog/Visual Studio CE/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_b9e25.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        MSBuild version 17.14.23+b0019275e for .NET Framework
+        Build started 23/11/2025 7:33:44 pm.
+        
+        Project "Z:\\kod\\automatafpit\\build\\CMakeFiles\\CMakeScratch\\TryCompile-1qfbs1\\cmTC_b9e25.vcxproj" on node 1 (default targets).
+        PrepareForBuild:
+          Creating directory "cmTC_b9e25.dir\\Debug\\".
+          Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
+          Creating directory "Z:\\kod\\automatafpit\\build\\CMakeFiles\\CMakeScratch\\TryCompile-1qfbs1\\Debug\\".
+          Creating directory "cmTC_b9e25.dir\\Debug\\cmTC_b9e25.tlog\\".
+        InitializeBuildStatus:
+          Creating "cmTC_b9e25.dir\\Debug\\cmTC_b9e25.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+          Touching "cmTC_b9e25.dir\\Debug\\cmTC_b9e25.tlog\\unsuccessfulbuild".
+        ClCompile:
+          Z:\\Prog\\Visual Studio CE\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CMAKE_HAVE_LIBC_PTHREAD /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /std:c++17 /Fo"cmTC_b9e25.dir\\Debug\\\\" /Fd"cmTC_b9e25.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TP /errorReport:queue "Z:\\kod\\automatafpit\\build\\CMakeFiles\\CMakeScratch\\TryCompile-1qfbs1\\src.cxx"
+          Microsoft (R) C/C++ Optimizing Compiler Version 19.44.35219 for x64
+          Copyright (C) Microsoft Corporation.  All rights reserved.
+          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CMAKE_HAVE_LIBC_PTHREAD /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /std:c++17 /Fo"cmTC_b9e25.dir\\Debug\\\\" /Fd"cmTC_b9e25.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TP /errorReport:queue "Z:\\kod\\automatafpit\\build\\CMakeFiles\\CMakeScratch\\TryCompile-1qfbs1\\src.cxx"
+          src.cxx
+        Z:\\kod\\automatafpit\\build\\CMakeFiles\\CMakeScratch\\TryCompile-1qfbs1\\src.cxx(1,10): error C1083: Cannot open include file: 'pthread.h': No such file or directory [Z:\\kod\\automatafpit\\build\\CMakeFiles\\CMakeScratch\\TryCompile-1qfbs1\\cmTC_b9e25.vcxproj]
+        Done Building Project "Z:\\kod\\automatafpit\\build\\CMakeFiles\\CMakeScratch\\TryCompile-1qfbs1\\cmTC_b9e25.vcxproj" (default targets) -- FAILED.
+        
+        Build FAILED.
+        
+        "Z:\\kod\\automatafpit\\build\\CMakeFiles\\CMakeScratch\\TryCompile-1qfbs1\\cmTC_b9e25.vcxproj" (default target) (1) ->
+        (ClCompile target) -> 
+          Z:\\kod\\automatafpit\\build\\CMakeFiles\\CMakeScratch\\TryCompile-1qfbs1\\src.cxx(1,10): error C1083: Cannot open include file: 'pthread.h': No such file or directory [Z:\\kod\\automatafpit\\build\\CMakeFiles\\CMakeScratch\\TryCompile-1qfbs1\\cmTC_b9e25.vcxproj]
+        
+            0 Warning(s)
+            1 Error(s)
+        
+        Time Elapsed 00:00:00.44
+        
+      exitCode: 1
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/mingw64/share/cmake-4.0/Modules/CheckLibraryExists.cmake:112 (try_compile)"
+      - "C:/mingw64/share/cmake-4.0/Modules/FindThreads.cmake:112 (check_library_exists)"
+      - "C:/mingw64/share/cmake-4.0/Modules/FindThreads.cmake:175 (_threads_check_lib)"
+      - "vcpkg/scripts/buildsystems/vcpkg.cmake:908 (_find_package)"
+      - "C:/mingw64/share/cmake-4.0/Modules/CMakeFindDependencyMacro.cmake:78 (find_package)"
+      - "vcpkg/installed/x64-windows-static/share/sfml/SFMLSystemDependencies.cmake:8 (find_dependency)"
+      - "vcpkg/installed/x64-windows-static/share/sfml/SFMLConfig.cmake:151 (include)"
+      - "vcpkg/scripts/buildsystems/vcpkg.cmake:908 (_find_package)"
+      - "C:/mingw64/share/cmake-4.0/Modules/CMakeFindDependencyMacro.cmake:78 (find_package)"
+      - "vcpkg/installed/x64-windows-static/share/imgui-sfml/ImGui-SFMLConfig.cmake:3 (find_dependency)"
+      - "vcpkg/scripts/buildsystems/vcpkg.cmake:908 (_find_package)"
+      - "CMakeLists.txt:13 (find_package)"
+    checks:
+      - "Looking for pthread_create in pthreads"
+    directories:
+      source: "Z:/kod/automatafpit/build/CMakeFiles/CMakeScratch/TryCompile-1nsw1r"
+      binary: "Z:/kod/automatafpit/build/CMakeFiles/CMakeScratch/TryCompile-1nsw1r"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "/DWIN32 /D_WINDOWS /GR /EHsc"
+      CMAKE_CXX_FLAGS_DEBUG: "/Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "Z:/kod/automatafpit/vcpkg/installed/x64-windows-static/share/sfml;Z:/kod/automatafpit/vcpkg/installed/x64-windows-static/share/sfml;Z:/kod/automatafpit/vcpkg/installed/x64-windows-static/share/sfml"
+      VCPKG_INSTALLED_DIR: "Z:/kod/automatafpit/vcpkg/installed"
+      VCPKG_PREFER_SYSTEM_LIBS: "OFF"
+      VCPKG_TARGET_TRIPLET: "x64-windows-static"
+      Z_VCPKG_ROOT_DIR: "Z:/kod/automatafpit/vcpkg"
+    buildResult:
+      variable: "CMAKE_HAVE_PTHREADS_CREATE"
+      cached: true
+      stdout: |
+        Change Dir: 'Z:/kod/automatafpit/build/CMakeFiles/CMakeScratch/TryCompile-1nsw1r'
+        
+        Run Build Command(s): "Z:/Prog/Visual Studio CE/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_f2293.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        MSBuild version 17.14.23+b0019275e for .NET Framework
+        Build started 23/11/2025 7:33:44 pm.
+        
+        Project "Z:\\kod\\automatafpit\\build\\CMakeFiles\\CMakeScratch\\TryCompile-1nsw1r\\cmTC_f2293.vcxproj" on node 1 (default targets).
+        PrepareForBuild:
+          Creating directory "cmTC_f2293.dir\\Debug\\".
+          Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
+          Creating directory "Z:\\kod\\automatafpit\\build\\CMakeFiles\\CMakeScratch\\TryCompile-1nsw1r\\Debug\\".
+          Creating directory "cmTC_f2293.dir\\Debug\\cmTC_f2293.tlog\\".
+        InitializeBuildStatus:
+          Creating "cmTC_f2293.dir\\Debug\\cmTC_f2293.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+          Touching "cmTC_f2293.dir\\Debug\\cmTC_f2293.tlog\\unsuccessfulbuild".
+        ClCompile:
+          Z:\\Prog\\Visual Studio CE\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=pthread_create /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /std:c++17 /Fo"cmTC_f2293.dir\\Debug\\\\" /Fd"cmTC_f2293.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TP /errorReport:queue "Z:\\kod\\automatafpit\\build\\CMakeFiles\\CMakeScratch\\TryCompile-1nsw1r\\CheckFunctionExists.cxx"
+          Microsoft (R) C/C++ Optimizing Compiler Version 19.44.35219 for x64
+          Copyright (C) Microsoft Corporation.  All rights reserved.
+          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=pthread_create /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /std:c++17 /Fo"cmTC_f2293.dir\\Debug\\\\" /Fd"cmTC_f2293.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TP /errorReport:queue "Z:\\kod\\automatafpit\\build\\CMakeFiles\\CMakeScratch\\TryCompile-1nsw1r\\CheckFunctionExists.cxx"
+          CheckFunctionExists.cxx
+        Link:
+          Z:\\Prog\\Visual Studio CE\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"Z:\\kod\\automatafpit\\build\\CMakeFiles\\CMakeScratch\\TryCompile-1nsw1r\\Debug\\cmTC_f2293.exe" /INCREMENTAL /ILK:"cmTC_f2293.dir\\Debug\\cmTC_f2293.ilk" /NOLOGO pthreads.lib kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"Z:/kod/automatafpit/build/CMakeFiles/CMakeScratch/TryCompile-1nsw1r/Debug/cmTC_f2293.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"Z:/kod/automatafpit/build/CMakeFiles/CMakeScratch/TryCompile-1nsw1r/Debug/cmTC_f2293.lib" /MACHINE:X64  /machine:x64 cmTC_f2293.dir\\Debug\\CheckFunctionExists.obj
+        LINK : fatal error LNK1104: cannot open file 'pthreads.lib' [Z:\\kod\\automatafpit\\build\\CMakeFiles\\CMakeScratch\\TryCompile-1nsw1r\\cmTC_f2293.vcxproj]
+        Done Building Project "Z:\\kod\\automatafpit\\build\\CMakeFiles\\CMakeScratch\\TryCompile-1nsw1r\\cmTC_f2293.vcxproj" (default targets) -- FAILED.
+        
+        Build FAILED.
+        
+        "Z:\\kod\\automatafpit\\build\\CMakeFiles\\CMakeScratch\\TryCompile-1nsw1r\\cmTC_f2293.vcxproj" (default target) (1) ->
+        (Link target) -> 
+          LINK : fatal error LNK1104: cannot open file 'pthreads.lib' [Z:\\kod\\automatafpit\\build\\CMakeFiles\\CMakeScratch\\TryCompile-1nsw1r\\cmTC_f2293.vcxproj]
+        
+            0 Warning(s)
+            1 Error(s)
+        
+        Time Elapsed 00:00:00.60
+        
+      exitCode: 1
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/mingw64/share/cmake-4.0/Modules/CheckLibraryExists.cmake:112 (try_compile)"
+      - "C:/mingw64/share/cmake-4.0/Modules/FindThreads.cmake:112 (check_library_exists)"
+      - "C:/mingw64/share/cmake-4.0/Modules/FindThreads.cmake:176 (_threads_check_lib)"
+      - "vcpkg/scripts/buildsystems/vcpkg.cmake:908 (_find_package)"
+      - "C:/mingw64/share/cmake-4.0/Modules/CMakeFindDependencyMacro.cmake:78 (find_package)"
+      - "vcpkg/installed/x64-windows-static/share/sfml/SFMLSystemDependencies.cmake:8 (find_dependency)"
+      - "vcpkg/installed/x64-windows-static/share/sfml/SFMLConfig.cmake:151 (include)"
+      - "vcpkg/scripts/buildsystems/vcpkg.cmake:908 (_find_package)"
+      - "C:/mingw64/share/cmake-4.0/Modules/CMakeFindDependencyMacro.cmake:78 (find_package)"
+      - "vcpkg/installed/x64-windows-static/share/imgui-sfml/ImGui-SFMLConfig.cmake:3 (find_dependency)"
+      - "vcpkg/scripts/buildsystems/vcpkg.cmake:908 (_find_package)"
+      - "CMakeLists.txt:13 (find_package)"
+    checks:
+      - "Looking for pthread_create in pthread"
+    directories:
+      source: "Z:/kod/automatafpit/build/CMakeFiles/CMakeScratch/TryCompile-5hxu16"
+      binary: "Z:/kod/automatafpit/build/CMakeFiles/CMakeScratch/TryCompile-5hxu16"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "/DWIN32 /D_WINDOWS /GR /EHsc"
+      CMAKE_CXX_FLAGS_DEBUG: "/Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "Z:/kod/automatafpit/vcpkg/installed/x64-windows-static/share/sfml;Z:/kod/automatafpit/vcpkg/installed/x64-windows-static/share/sfml;Z:/kod/automatafpit/vcpkg/installed/x64-windows-static/share/sfml"
+      VCPKG_INSTALLED_DIR: "Z:/kod/automatafpit/vcpkg/installed"
+      VCPKG_PREFER_SYSTEM_LIBS: "OFF"
+      VCPKG_TARGET_TRIPLET: "x64-windows-static"
+      Z_VCPKG_ROOT_DIR: "Z:/kod/automatafpit/vcpkg"
+    buildResult:
+      variable: "CMAKE_HAVE_PTHREAD_CREATE"
+      cached: true
+      stdout: |
+        Change Dir: 'Z:/kod/automatafpit/build/CMakeFiles/CMakeScratch/TryCompile-5hxu16'
+        
+        Run Build Command(s): "Z:/Prog/Visual Studio CE/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_65dbc.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        MSBuild version 17.14.23+b0019275e for .NET Framework
+        Build started 23/11/2025 7:33:45 pm.
+        
+        Project "Z:\\kod\\automatafpit\\build\\CMakeFiles\\CMakeScratch\\TryCompile-5hxu16\\cmTC_65dbc.vcxproj" on node 1 (default targets).
+        PrepareForBuild:
+          Creating directory "cmTC_65dbc.dir\\Debug\\".
+          Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
+          Creating directory "Z:\\kod\\automatafpit\\build\\CMakeFiles\\CMakeScratch\\TryCompile-5hxu16\\Debug\\".
+          Creating directory "cmTC_65dbc.dir\\Debug\\cmTC_65dbc.tlog\\".
+        InitializeBuildStatus:
+          Creating "cmTC_65dbc.dir\\Debug\\cmTC_65dbc.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+          Touching "cmTC_65dbc.dir\\Debug\\cmTC_65dbc.tlog\\unsuccessfulbuild".
+        ClCompile:
+          Z:\\Prog\\Visual Studio CE\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=pthread_create /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /std:c++17 /Fo"cmTC_65dbc.dir\\Debug\\\\" /Fd"cmTC_65dbc.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TP /errorReport:queue "Z:\\kod\\automatafpit\\build\\CMakeFiles\\CMakeScratch\\TryCompile-5hxu16\\CheckFunctionExists.cxx"
+          Microsoft (R) C/C++ Optimizing Compiler Version 19.44.35219 for x64
+          Copyright (C) Microsoft Corporation.  All rights reserved.
+          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=pthread_create /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /std:c++17 /Fo"cmTC_65dbc.dir\\Debug\\\\" /Fd"cmTC_65dbc.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TP /errorReport:queue "Z:\\kod\\automatafpit\\build\\CMakeFiles\\CMakeScratch\\TryCompile-5hxu16\\CheckFunctionExists.cxx"
+          CheckFunctionExists.cxx
+        Link:
+          Z:\\Prog\\Visual Studio CE\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"Z:\\kod\\automatafpit\\build\\CMakeFiles\\CMakeScratch\\TryCompile-5hxu16\\Debug\\cmTC_65dbc.exe" /INCREMENTAL /ILK:"cmTC_65dbc.dir\\Debug\\cmTC_65dbc.ilk" /NOLOGO pthread.lib kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"Z:/kod/automatafpit/build/CMakeFiles/CMakeScratch/TryCompile-5hxu16/Debug/cmTC_65dbc.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"Z:/kod/automatafpit/build/CMakeFiles/CMakeScratch/TryCompile-5hxu16/Debug/cmTC_65dbc.lib" /MACHINE:X64  /machine:x64 cmTC_65dbc.dir\\Debug\\CheckFunctionExists.obj
+        LINK : fatal error LNK1104: cannot open file 'pthread.lib' [Z:\\kod\\automatafpit\\build\\CMakeFiles\\CMakeScratch\\TryCompile-5hxu16\\cmTC_65dbc.vcxproj]
+        Done Building Project "Z:\\kod\\automatafpit\\build\\CMakeFiles\\CMakeScratch\\TryCompile-5hxu16\\cmTC_65dbc.vcxproj" (default targets) -- FAILED.
+        
+        Build FAILED.
+        
+        "Z:\\kod\\automatafpit\\build\\CMakeFiles\\CMakeScratch\\TryCompile-5hxu16\\cmTC_65dbc.vcxproj" (default target) (1) ->
+        (Link target) -> 
+          LINK : fatal error LNK1104: cannot open file 'pthread.lib' [Z:\\kod\\automatafpit\\build\\CMakeFiles\\CMakeScratch\\TryCompile-5hxu16\\cmTC_65dbc.vcxproj]
+        
+            0 Warning(s)
+            1 Error(s)
+        
+        Time Elapsed 00:00:00.61
+        
+      exitCode: 1
+...

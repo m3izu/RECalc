@@ -1,4 +1,5 @@
 # RECalc: Visual Arithmetic & Regex Engine Documentation
+Mariann Mesa, Franco Galendez, Aldwyn Betonio, Dax Romualdez
 
 ## 1. High-Level Overview
 **RECalc** is an educational visualization tool that demonstrates two fundamental computer science concepts:

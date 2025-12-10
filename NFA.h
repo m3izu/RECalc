@@ -19,7 +19,9 @@ struct NFAFragment {
 };
 
 class ThompsonNFA {
+public:
     std::vector<std::unique_ptr<NState>> owned;
+private:
     int nextId = 0;
 public:
     NState* start = nullptr;
